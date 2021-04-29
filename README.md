@@ -24,12 +24,12 @@ A guess of "e" with feedback of _ _ e _ (4 letters with e only in index 2) will 
 
 #
 Example of worddata.csv output for just "5000EnglishWordsFrequency.txt" checked against itself 
-![worddata.csv output](images\worddata_output.png) 
+![worddata.csv output](images/worddata_output.png) 
 
 #
 After creating worddata.csv, you can use excel to bring more context to your data. The grid below can be read as follows:
 For 9 letter words (of which there were 57,346 in words.txt), there was a 94% chance of guessing a word with 3 or fewer errors and there was a 100% percent chance a word would be guessed with 5 or fewer errors. 
-![derivation of data provided from worddata.csv](images\big_word_list_high_frequency.png) 
+![derivation of data provided from worddata.csv](images/big_word_list_high_frequency.png) 
 
 #
 
@@ -38,7 +38,8 @@ Use:
 * for x in reversed(letter_frequency_just_letters_in_order)     
 instead of 
 * for x in letter_frequency_just_letters_in_order: 
-![derivation of data provided from worddata.csv using lowest frequency letter](images\big_word_list_low_frequency.png) 
+    
+![derivation of data provided from worddata.csv using lowest frequency letter](images/big_word_list_low_frequency.png) 
 
 
 
