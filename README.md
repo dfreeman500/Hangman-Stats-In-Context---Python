@@ -5,7 +5,7 @@ Determine number of guesses needed to solve each word in a list given a strategy
 A guess of "e" with feedback of _ _ e _ (4 letters with e only in index 2) will eliminate "feed" as a possible word. A list of all 4 letter words that meet the criteria is created and frequency count of the sets of letters is done to generate the next guess.
 
 
-1. Provide word lists
+1. Provide word lists   
     The current setup uses 2 word lists.
     * "5000EnglishWordsFrequency.txt" is a high frequency word list (not quite 5000 words).
     * "words.txt" is a large word list (with lots of junk entries within the shorter words -ex: AAAAAA).
@@ -28,7 +28,7 @@ Example of worddata.csv output for just "5000EnglishWordsFrequency.txt" checked 
 
 #
 After creating worddata.csv, you can use excel to bring more context to your data. The grid below can be read as follows:
-For 9 letter words (of which there were 57,346), there was a 94% chance of guessing a word with 3 or fewer errors and there was a 100% percent chance a word would be guessed with 5 or fewer errors. 
+For 9 letter words (of which there were 57,346 in words.txt), there was a 94% chance of guessing a word with 3 or fewer errors and there was a 100% percent chance a word would be guessed with 5 or fewer errors. 
 ![derivation of data provided from worddata.csv](images\big_word_list_high_frequency.png) 
 
 #
