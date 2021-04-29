@@ -2,7 +2,7 @@
 
 Determine number of guesses needed to solve each word in a list given a strategy of guessing the most frequent occurring letter. The number of guesses to solve a word will change depending on the members of the list (i.e. a word list with 1 million entries will have a different distribution of letters compared to one with 1,000 words). This algorithm uses word length and letter position to determine the next guess.
 
-A guess of "e" with feedback of "__e_" (4 letters with e only in index 2) will eliminate "feed" as a possible word. A list of all 4 letter words that meet the criteria is created and frequency count of the sets of letters is done to generate the next guess.
+A guess of "e" with feedback of _ _ e _ (4 letters with e only in index 2) will eliminate "feed" as a possible word. A list of all 4 letter words that meet the criteria is created and frequency count of the sets of letters is done to generate the next guess.
 
 
 1. Provide word lists
